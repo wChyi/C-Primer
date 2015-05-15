@@ -29,7 +29,7 @@ int* array_at(Array *a,int index){
 int array_get(const Array *a,int index){
 	return a->array[index];	
 }
-void array_set(Array *a,int index,int value){
+void array_set(Array *a,int index,int value{
 	a->array[index] = value;
 }
 void array_inflate(Array *a,int more_size){
@@ -48,4 +48,7 @@ int main(){
 	*array_at(&a,0)=10; 
 	printf("%d",*array_at(&a,0));
 	array_free(&a);
+}
+int aaaaa(){
+ return 0;
 }
